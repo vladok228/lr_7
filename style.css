@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Russo One', sans-serif;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1106px;
+    height: 615px;
+
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.col-up{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.nov{
+    border: 1px solid lawngreen;
+    background-color: lawngreen;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 9px;
+    margin-left: 220px;
+}
+
+.nov-text {
+    margin-top: 20px;
+}
+
+.hit-first{
+    border: 1px solid rgb(21, 25, 221);
+    background-color: rgb(21, 25, 221);
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 8px;
+    margin-left: 515px;
+}
+
+.hit-second{
+    border: 1px solid rgb(21, 25, 221);
+    background-color: rgb(21, 25, 221);
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 8px;
+    margin-left: 205px;
+}
+
+.hit-text{
+    margin-top: 15px;
+}
+
+.container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+
+.center{
+    display: flex;
+}
+
+.tovar{
+    border: 1px solid #ccc;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 280px;
+}
+
+.genre{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: #ccc;
+}
+
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: #ccc;
+    margin-left: 12px;
+}
+
+img{
+    margin-top: 50px;
+    width: 230px;
+    height: 190px;
+}
+
+.name{
+    text-transform: uppercase;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.button-prod{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    padding: 15px;
+    border: 1px solid rgb(206, 93, 206);
+    background-color: rgb(206, 93, 206);
+    color: white;
+}
+
+.button{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    padding: 15px;
+    border: 1px solid yellow;
+    background-color:yellow;
+}
